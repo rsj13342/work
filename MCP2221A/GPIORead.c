@@ -81,8 +81,8 @@ int main(void)
 		//0.1sec
 //		usleep(100000);
 
-		//0.03sec
-		usleep(30000);
+		//0.05sec
+		usleep(50000);
 	}
 
 	mcp2221_exit();
