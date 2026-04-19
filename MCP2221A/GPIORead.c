@@ -21,7 +21,6 @@
 
 static int readGPIOs(mcp2221_t* myDev)
 {
-	int ret=0;
 
 	mcp2221_gpio_value_t values[MCP2221_GPIO_COUNT];
 	mcp2221_readGPIO(myDev, values);
