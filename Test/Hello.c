@@ -56,7 +56,7 @@ int main(void)
 
 	mcp2221_exit();
 	
-	puts("Done");
+	puts("Done!!");
 
 	return 0;
 }
